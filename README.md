@@ -1,5 +1,5 @@
-# Colr Copy To
-Solr copy collection to Solr/MongoDB using Solr API. This project already using dep as package manager.
+# Solr Copy To
+Solr copy collection to Solr/MongoDB with Solr API using Golang. This project already using dep as package manager.
 
 ## Available Source 
 - Solr 6.6
