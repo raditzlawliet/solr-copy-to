@@ -17,8 +17,9 @@ package main
 import (
 	"os"
 	"path/filepath"
-	"raditzlawliet/solr-copy-to/cmd"
 	"time"
+
+	"github.com/raditzlawliet/solr-copy-to/cmd"
 
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	colorable "github.com/mattn/go-colorable"

@@ -62,14 +62,14 @@ func init() {
 	runCmd.Flags().Int("source-rows", 10000, "Solr Source Rows Fetch each Query")
 	runCmd.Flags().String("source-cursor", "*", "Solr Source Cursor")
 
-	runCmd.Flags().String("target-host", "127.0.0.1", "Mongo (Mongo) | Solr Source Full URL (with /solr)")
+	runCmd.Flags().String("target-host", "http://127.0.0.1:8983/solr/", "Mongo (Mongo) | Solr Source Full URL (with /solr)")
 	runCmd.Flags().String("target-db", "", "Database (Mongo)")
 	runCmd.Flags().String("target-user", "", "Username Database (Mongo)")
 	runCmd.Flags().String("target-pass", "", "Password Database (Mongo)")
 
 	runCmd.Flags().Bool("target-commit", true, "Commit after Post (Solr)")
 
-	runCmd.Flags().String("target-type", "mongo", "Target Collection Type")
+	runCmd.Flags().String("target-type", "solr", "Target Collection Type : mongo / solr")
 
 }
 
