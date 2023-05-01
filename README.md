@@ -1,3 +1,7 @@
+> **Warning**
+> Project will be archived as read-only. This project still can be use, But there will be no update until unknown date announcement. 
+ 
+ 
 # Solr Copy To
 Solr copy collection to Solr/MongoDB with Solr API using Golang. This project already using dep as package manager.
 
